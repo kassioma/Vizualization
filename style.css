@@ -1,4 +1,4 @@
-:root {
+:root {    
   --primary-color: #014f86;
   --secondary-color: #2a6f97;
   --light-color: #e9f2fb;
@@ -17,7 +17,7 @@ body {
 }
 
 .container {
-  width: 90%;
+  width: 100%;
   max-width: 1200px;
   margin: 0 auto;
   padding: 0 15px;
@@ -215,5 +215,47 @@ footer p {
   
   .filtros-section h2 {
     font-size: 1.2rem;
+  }
+}
+
+/* Estilos para a seção de introdução com imagem */
+.intro-content {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  align-items: center;
+}
+
+.intro-text {
+  flex: 1;
+  min-width: 300px;
+}
+
+.intro-image {
+  flex: 1;
+  min-width: 300px;
+  text-align: center;
+}
+
+.intro-image img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Ajustes para mobile */
+@media (max-width: 768px) {
+  .intro-content {
+    flex-direction: column;
+  }
+  
+  .intro-text, .intro-image {
+    width: 100%;
+  }
+  
+  .intro-image {
+    order: -1; /* Coloca a imagem acima em mobile */
+    margin-bottom: 20px;
   }
 }

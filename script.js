@@ -1,63 +1,45 @@
 const dados = [
   {
-    area: "Legislação - LGPD",
-    competencia: "Noções Básicas da LGPD",
+    area: "Legislação",
+    referencia: "LGPD (LEI Nº 13.709),LAI (LEI Nº 12.527), SGD, Marco Civil da Internet (LEI Nº 12.965), ANPD",
+    competencia: "Noções Básicas da LGPD, Direitos dos Titulares de Dados, Consentimento e Revogação, Funções e Responsabilidades do Controlador, Operador e Encarregado, Princípios da LAI, Portaria SGD/MGI Nº 852, de 26 de Março de 2023, Conhecimento Geral sobre o Marco Civil da Internet, Atuação do Encarregado conforme a ANPD",
     descricao: "Compreensão dos principais conceitos da LGPD, incluindo definição de dados pessoais e sensíveis, bases legais para tratamento e direitos dos titulares.",
     perfis: ["Encarregado", "Controlador", "Operador", "Titular", "Equipe do Encarregado", "Alta Gestão1", "Alta Gestão2", "Resp. Unidade Interna", "Usuário"]
   },
   {
-    area: "Legislação - LGPD",
-    competencia: "Direitos dos Titulares de Dados",
-    descricao: "Familiaridade com os direitos dos titulares previstos na LGPD e apoio na resposta a solicitações.",
+    area: "Conhecimentos em Tecnologia da Informação",
+    referencia: "-",
+    competencia: "Noções Básicas de TI e Sistemas de Informação, Conceitos de Privacidade e Segurança em TI, Noções Básicas Sobre Armazenamento de Dados",
+    descricao: "Entendimento dos conceitos básicos de TI, como o que são redes de computadores, sistemas operacionais (Windows, Linux, etc.) e a função dos servidores na armazenagem e processamento de dados.",
     perfis: ["Encarregado", "Controlador", "Operador", "Titular", "Equipe do Encarregado", "Alta Gestão1", "Alta Gestão2", "Resp. Unidade Interna", "Usuário"]
   },
   {
-    area: "Legislação - LGPD",
-    competencia: "Consentimento e Revogação",
-    descricao: "Entendimento sobre como o consentimento é solicitado e o direito de revogação.",
+    area: "Privacy by Design",
+    referencia: "-",
+    competencia: "Conceitos Fundamentais de Privacy By Design and By Default, Princípios de Privacidade, Noções de Compliance com Regulamentos de Privacidade",
+    descricao: "Privacy by Design (PbD) e Privacy by Default (PbDft), como a integração da privacidade desde o início de um projeto.",
     perfis: ["Encarregado", "Controlador", "Operador", "Titular", "Equipe do Encarregado", "Alta Gestão1", "Alta Gestão2", "Resp. Unidade Interna", "Usuário"]
   },
   {
-    area: "Legislação - LGPD",
-    competencia: "Funções e Responsabilidades",
-    descricao: "Conhecimento sobre as responsabilidades de controlador, operador e encarregado.",
+    area: "Estratégias de Privacidade",
+    referencia: "-",
+    competencia: "Conceitos Básicos de Privacidade, Noções de Privacidade e Proteção de Dados, Conceitos Fundamentais de Privacidade, Comunicação Eficaz sobre Privacidade, Princípios Éticos de Privacidade, Implementação de Programas de Conformidade,Cultura de Privacidade na Organização",
+    descricao: "Entender os princípios fundamentais da privacidade, incluindo confidencialidade, integridade e disponibilidade de dados.",
     perfis: ["Encarregado", "Controlador", "Operador", "Titular", "Equipe do Encarregado", "Alta Gestão1", "Alta Gestão2", "Resp. Unidade Interna", "Usuário"]
   },
   {
-    area: "ANPD",
-    competencia: "Atuação do Encarregado conforme a ANPD",
-    descricao: "Compreensão sobre a Resolução CD/ANPD Nº 18/2024 e as responsabilidades do Encarregado.",
+    area: "Documentos Orientativos",
+    referencia: "SGD, ANPD",
+    competencia: "Conhecimento geral sobre o glossário de proteção de dados pessoais e privacidade, Conhecimento sobre o PPSI e seu funcionamento, Conhecimento sobre Framework do PPSI, Conhecimento sobre os Requisitos Gerais de Estruturação de Privacidade e Segurança referentes a contratos, Conhecimento sobre as definições do Guia Orientativo para Definições dos Agentes de Tratamento de Dados Pessoais e do Encarregado, Conhecimento sobre as definições do Guia Orientativo: Atuação do Encarregado Pelo Tratamento de Dados Pessoais, Tratamento de dados pessoais pelo Poder Público, Entendimento sobre proteção de dados pessoais de acordo com a ANPD, Conhecimento sobre Vazamento de Dados.",
+    descricao: "Conhecimento geral sobre o documento: Glossário de proteção de dados pessoais e privacidade.",
+    perfis: ["Encarregado", "Controlador", "Operador", "Titular", "Equipe do Encarregado", "Alta Gestão1", "Alta Gestão2", "Resp. Unidade Interna", "Usuário"]
+  },
+  {
+    area: "Gestão de Riscos e Conformidade",
+    referencia: "-",
+    competencia: "Governança Corporativa, Gestão de Incidentes de Privacidade, Fundamentos de Conformidade, Conceitos Básicos de Gestão de Riscos de Privacidade",
+    descricao: "Noções básicas sobre o papel da governança corporativa na proteção de dados e como ela se relaciona com as estratégias de privacidade.",
     perfis: ["Encarregado"]
-  },
-  {
-    area: "TI e Privacidade",
-    competencia: "Noções Básicas de TI",
-    descricao: "Conceitos de redes, sistemas operacionais e servidores na gestão de dados.",
-    perfis: ["Encarregado"]
-  },
-  {
-    area: "Privacidade por Design",
-    competencia: "Privacy by Design e Default",
-    descricao: "Conceitos fundamentais e princípios centrais como proatividade, prevenção e transparência.",
-    perfis: ["Encarregado", "Controlador"]
-  },
-  {
-    area: "Governança",
-    competencia: "Fundamentos de Conformidade",
-    descricao: "Conhecimento básico sobre a necessidade de se adequar à legislação, como a criação de políticas de privacidade claras e acessíveis.",
-    perfis: ["Controlador"]
-  },
-  {
-    area: "Legislação - LGPD",
-    competencia: "Conformidade com a LGPD e suas Obrigações",
-    descricao: "Compreensão das principais obrigações impostas pela LGPD para as organizações.",
-    perfis: ["Controlador"]
-  },
-  {
-    area: "Gestão de Dados",
-    competencia: "Mapeamento de Dados e Inventário",
-    descricao: "Habilidade em identificar e mapear onde os dados pessoais são coletados, armazenados e processados.",
-    perfis: ["Controlador"]
   }
 ];
 
@@ -108,6 +90,7 @@ function filtrarPerfil() {
       const linha = document.createElement("tr");
       linha.innerHTML = `
         <td>${item.area}</td>
+        <td>${item.referencia}</td>
         <td>${item.competencia}</td>
         <td>${item.descricao}</td>
         <td>${item.perfis.join(", ")}</td>
